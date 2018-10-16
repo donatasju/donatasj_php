@@ -3,14 +3,14 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>As valdau HTML! <?php print "ir PHP" ?></title>
+    <title><?php print 'Aš,' . date('l') . ' ir PHP' ?></title>
   </head>
   <body>
       <h1>
-          <i>Donatas</i> - HTML <?php print "ir PHP"?> asas !
+          <i>Donatas</i> - HTML <?php print "ir PHP"?> asas jau nuo <?php print date('Y') . ' metu' ?>
       </h1>
       <p>
-          Moku kurti statini turini. Atidaryta: <?php date_default_timezone_set('Europe/Vilnius'); print date("Y.m.d H.i.s")?>
+          Viskas prasidejo <?php print date('m') . ' menesio,' . date(' d') . ' diena!'?>
       </p>
   </body>
 </html>
