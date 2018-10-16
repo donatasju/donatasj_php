@@ -1,6 +1,4 @@
-<?php
-print 'Veikia';
-?>
+<?php echo 'Veikia su GIT' ?>
 <html>
     <body>
         <h1>
