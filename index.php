@@ -1,29 +1,13 @@
-<?php
-$gryzai_velai = rand(0, 1);
-$gryzai_isgeres = rand(0, 1);
+<?php 
+$fridge = ['Jogurtas, ', 'Kebabas, ', 'alus, ', 'sugede vaisiai, ', 'supuves avokadas. '];
 
-if ($gryzai_velai && $gryzai_isgeres) {
-    print 'Miegosi ant sofos, nes gryzai velai ir isgeres';
-} 
-elseif (!$gryzai_velai && $gryzai_isgeres) {
-    print 'Nemiegosi ant sofos nes negryzai velai';
-} 
-elseif ($gryzai_velai && !$gryzai_isgeres) {
-    print 'Nemiegosi ant sofos nes negryzai isgeres';
-} 
-else {
-    print 'Nemiegosi ant sofos, nes nieko nepadarei';
+$text = ' ';
+for ($i = 0; $i < count($fridge); $i++) {
+    $text .= $fridge[$i] ;
 }
 ?>
-
-
 <html>
-    <head>
-
-    </head>
     <body>
-        <h1>
-           
-        </h1>
+        <h1><?php print $text; ?></h1>
     </body>
 </html>
