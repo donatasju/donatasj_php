@@ -1,0 +1,47 @@
+.nav {
+    cursor: pointer; 
+    float: right;
+    margin: 0 20px;
+    text-decoration: none;
+
+}
+.nav button a {
+    text-decoration: none;
+}
+.navHome {
+    color: #007bff;
+    background-color: transparent;
+    background-image: none;
+    border-color: #007bff;
+}
+
+.buttons button {
+    font-size: 40px;
+}
+.buttons {
+
+
+}
+.mainas {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: 500px;
+    border: 1px solid black;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1; 
+}
+.pagrind {
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.2);
+    color: white; 
+ 
+}
+.vienas {
+    background-image: url("https://www.sevenforums.com/attachments/general-discussion/250721d1486599828t-any-ideas-how-my-login-background-screen-changed-its-own-backgrounddefault.jpg");
+    background-size: cover;
+}
